@@ -1,0 +1,385 @@
+{
+  "version": 1,
+  "title": "IFE Tour",
+  "scenes": [
+    {
+      "id": "8e0f384f-eeaa-469a-8ac0-60b3501c69bb",
+      "name": "Outdoor",
+      "video": "/media/8aa4de83-0c5f-4b45-bf3b-46fe806635dc.mp4",
+      "startYaw": -1.5360000000000011,
+      "hotspots": [
+        {
+          "id": "800aef4a-2130-4e60-b0c9-ea3e0dffe130",
+          "type": "link",
+          "label": "IFE",
+          "target": "d678db21-2fd1-4d28-9540-d51f7b19e30c",
+          "yaw": -1.5570589538210127,
+          "pitch": 0.0384456984401411,
+          "style": "hint",
+          "size": 0.9,
+          "color": "#ffffff",
+          "pulse": true,
+          "hover": "label",
+          "direction": 0
+        }
+      ],
+      "videoOptions": {
+        "loop": false,
+        "playbackRate": 1,
+        "volume": 1
+      }
+    },
+    {
+      "id": "d678db21-2fd1-4d28-9540-d51f7b19e30c",
+      "name": "Floor 0",
+      "video": "/media/1a7ce971-7bd5-44bb-838c-b02258268227.mp4",
+      "startYaw": -1.738000000000001,
+      "hotspots": [
+        {
+          "id": "6967d93e-299f-441e-9248-6274e55ca035",
+          "type": "link",
+          "label": "Go outdoors",
+          "target": "8e0f384f-eeaa-469a-8ac0-60b3501c69bb",
+          "style": "hint",
+          "color": "#ffffff",
+          "yaw": 1.4852751934471744,
+          "pitch": -0.08526559621147185,
+          "pulse": true,
+          "size": 1.1,
+          "direction": 0
+        },
+        {
+          "id": "fa2c06ab-1f45-4dcd-82b5-50e770cffc9e",
+          "type": "link",
+          "label": "Go left",
+          "target": "43b469e0-f331-473f-bb07-3cd19ab99824",
+          "style": "hint",
+          "color": "#ffffff",
+          "yaw": -2.665569220582547,
+          "pitch": -0.10070543692052475,
+          "size": 0.9,
+          "pulse": true,
+          "direction": 315
+        },
+        {
+          "id": "9e7f4fb9-7d1a-48a5-9b97-4f4f3e88811c",
+          "type": "link",
+          "label": "Go up",
+          "target": "3ea21bfa-e8eb-4da3-889b-4afd385eb2ef",
+          "style": "hint",
+          "color": "#ffffff",
+          "yaw": -1.6066579724694927,
+          "pitch": -0.13298677892433622,
+          "size": 1,
+          "pulse": true,
+          "direction": 0
+        }
+      ],
+      "videoOptions": {
+        "loop": false,
+        "playbackRate": 1,
+        "volume": 1
+      }
+    },
+    {
+      "id": "43b469e0-f331-473f-bb07-3cd19ab99824",
+      "name": "Floor 0 left",
+      "video": "/media/926d03f8-2f38-4d22-b9df-30ae43a19d58.mp4",
+      "startYaw": -1.6040000000000008,
+      "hotspots": [
+        {
+          "id": "c0ac713a-46ed-4987-93f8-7d8bbd156191",
+          "type": "link",
+          "label": "Go back",
+          "target": "d678db21-2fd1-4d28-9540-d51f7b19e30c",
+          "style": "hint",
+          "color": "#ffffff",
+          "hover": "label",
+          "yaw": -1.5974074688116144,
+          "pitch": -0.03959739814075602,
+          "direction": 0,
+          "size": 0.6
+        },
+        {
+          "id": "6ef10490-e5e8-4e56-ab23-096904de51b3",
+          "type": "info",
+          "label": "Learning Booths",
+          "title": "Quiet Study Pods",
+          "body": "Need a quiet place to focus or hold an online meeting? Our soundproof learning booths offer a distraction-free environment equipped with individual air conditioning and built-in power outlets to keep your devices charged during study sessions.",
+          "image": "/media/b59fc33c-d1b9-4c3f-8837-9318d14aae4c.jpg",
+          "style": "expand",
+          "color": "#25aae1",
+          "hover": "details",
+          "yaw": -1.0972102955731058,
+          "pitch": -0.06360138214795123
+        },
+        {
+          "id": "3564f3b3-5a2e-4fb1-a8c1-c2d36d422101",
+          "type": "info",
+          "label": "Classroom",
+          "title": "Interactive Seminar Room",
+          "body": "Designed for collaborative and dynamic learning, this classroom features a modern interactive whiteboard. It allows professors and students to share digital content seamlessly, annotate presentations in real time, and engage in hands-on workshops.",
+          "image": "",
+          "style": "hint",
+          "color": "#25aae1",
+          "hover": "details",
+          "yaw": 0.7632608950792913,
+          "pitch": -0.043025626149356816
+        },
+        {
+          "id": "44d0a07b-6540-4d17-8c99-6786884e3fbd",
+          "type": "info",
+          "label": "Restrooms",
+          "title": "Modern Restroom Facilities",
+          "body": "Conveniently located and maintained to high hygiene standards, our restroom facilities are modern, spotless, and fully equipped with everything you need to freshen up between classes.",
+          "image": "",
+          "style": "tooltip",
+          "color": "#25aae1",
+          "hover": "details",
+          "yaw": 2.6990907735922813,
+          "pitch": -0.06481031109795618
+        }
+      ],
+      "videoOptions": {
+        "loop": false,
+        "playbackRate": 1,
+        "volume": 1
+      }
+    },
+    {
+      "id": "3ea21bfa-e8eb-4da3-889b-4afd385eb2ef",
+      "name": "Floor 0 lift",
+      "video": "/media/911fe6c9-d2b9-453a-9e75-9c42b421eb58.mp4",
+      "startYaw": 1.4200000000000008,
+      "hotspots": [
+        {
+          "id": "7a1bd09a-b7bf-4f32-83f0-231f83d542a4",
+          "type": "link",
+          "label": "Floor 1",
+          "target": "75f18cd0-c905-47eb-9252-ea9e8a1283f6",
+          "style": "hint",
+          "color": "#ffffff",
+          "yaw": 1.4548506110453683,
+          "pitch": -0.015158321678302434,
+          "pulse": false,
+          "startTime": 11.4
+        },
+        {
+          "id": "bbc149fd-25af-40d6-8bc5-3f9b852a44e1",
+          "type": "link",
+          "label": "Floor 0",
+          "target": "d678db21-2fd1-4d28-9540-d51f7b19e30c",
+          "style": "hint",
+          "color": "#ffffff",
+          "yaw": 1.453623135579174,
+          "pitch": -0.554719735159583,
+          "pulse": true,
+          "endTime": 4.2
+        }
+      ],
+      "videoOptions": {
+        "loop": false,
+        "playbackRate": 1,
+        "volume": 1
+      }
+    },
+    {
+      "id": "75f18cd0-c905-47eb-9252-ea9e8a1283f6",
+      "name": "Floor 1",
+      "video": "/media/7d0c8a0d-adab-4479-ab6c-f4373f813024.mp4",
+      "startYaw": -1.872000000000002,
+      "hotspots": [
+        {
+          "id": "d4bae9df-caa9-4e25-9646-100f52be53c9",
+          "type": "link",
+          "label": "Go to AULA",
+          "target": "bccb9666-e1e7-4093-9da9-df17ddc17459",
+          "style": "hint",
+          "color": "#ffffff",
+          "yaw": -0.6925472776510285,
+          "pitch": -0.0657824907974886,
+          "pulse": true,
+          "direction": 45
+        },
+        {
+          "id": "d33f5c85-0d63-4958-9634-62d3c090a9b4",
+          "type": "link",
+          "label": "Go up",
+          "target": "e79d8514-4f17-4f4f-9b7e-a6866bc75421",
+          "style": "hint",
+          "color": "#ffffff",
+          "yaw": -1.769073828049883,
+          "pitch": 0.06585425730501643,
+          "pulse": true,
+          "direction": 0
+        },
+        {
+          "id": "b6b36312-2e8b-438b-b74c-42757c88b3ac",
+          "type": "link",
+          "label": "Go down",
+          "target": "d678db21-2fd1-4d28-9540-d51f7b19e30c",
+          "style": "hint",
+          "color": "#ffffff",
+          "yaw": -1.7720709080115977,
+          "pitch": -0.3032407693862846,
+          "pulse": false,
+          "direction": 180
+        },
+        {
+          "id": "b86b6b68-ccd5-4e67-929a-8623319c2e7a",
+          "type": "info",
+          "label": "Erasmus Office",
+          "title": "International Exchange & Erasmus+ Hub",
+          "body": "Looking to study abroad or arriving as an international exchange student? The Erasmus Office is your main point of contact for international mobility programs, scholarship applications, partner university placements, and support during your stay.",
+          "image": "/media/475190a9-72a6-4b96-9f33-59082d17dcbe.png",
+          "style": "hint",
+          "color": "#25aae1",
+          "hover": "details",
+          "yaw": -1.0471920960551149,
+          "pitch": 0.008088232175990586
+        },
+        {
+          "id": "1db00f15-fa42-48fe-8d5c-ecae283c67a1",
+          "type": "info",
+          "label": "Student Lounge",
+          "title": "Chillout & Relax Zone",
+          "body": "Take a break between lectures in our dedicated student lounge. Whether you want to catch up with friends, grab a quick coffee, or unwind on comfortable seating, this space is designed to help you recharge before your next class.",
+          "image": "/media/eefb38a7-47f9-4de5-8bad-ee1be80cfa94.jpg",
+          "style": "hint",
+          "color": "#25aae1",
+          "hover": "details",
+          "yaw": 1.9249664873432282,
+          "pitch": -0.06086182907167819
+        }
+      ],
+      "videoOptions": {
+        "loop": false,
+        "playbackRate": 1,
+        "volume": 1
+      }
+    },
+    {
+      "id": "e79d8514-4f17-4f4f-9b7e-a6866bc75421",
+      "name": "Floor 1 lift",
+      "video": "/media/1d8baa10-b5e1-4232-bddb-7cd431e0338f.mp4",
+      "startYaw": 1.6920000000000006,
+      "hotspots": [
+        {
+          "id": "bb452948-ea1f-4fd4-b40a-49dd9097c30a",
+          "type": "link",
+          "label": "Floor 2",
+          "target": "75f18cd0-c905-47eb-9252-ea9e8a1283f6",
+          "style": "hint",
+          "color": "#ffffff",
+          "yaw": 1.6447547440417518,
+          "pitch": 0.021666402764323384,
+          "pulse": true,
+          "startTime": 0,
+          "endTime": 5.2
+        },
+        {
+          "id": "679d6918-55fa-4b74-99f8-e16a1da5307d",
+          "type": "link",
+          "label": "Next location",
+          "target": "9797c696-5e7a-4c7d-87a3-7a21002ebb16",
+          "style": "hint",
+          "color": "#ffffff",
+          "hover": "label",
+          "yaw": 1.6472175623702567,
+          "pitch": -0.5013298939541168,
+          "size": 1.1,
+          "startTime": 12
+        }
+      ],
+      "videoOptions": {
+        "loop": false,
+        "playbackRate": 1,
+        "volume": 1
+      }
+    },
+    {
+      "id": "bccb9666-e1e7-4093-9da9-df17ddc17459",
+      "name": "Floor 1 right",
+      "video": "/media/5e73cbe3-af53-4dad-86da-895b6f9463f4.mp4",
+      "startYaw": -1.6560000000000015,
+      "hotspots": [
+        {
+          "id": "c0e64b23-b5be-4c8f-999e-4416aaa96a3a",
+          "type": "link",
+          "label": "Go back",
+          "target": "75f18cd0-c905-47eb-9252-ea9e8a1283f6",
+          "style": "hint",
+          "color": "#ffffff",
+          "yaw": 1.4850691874252038,
+          "pitch": -0.03994719101351631,
+          "pulse": true,
+          "direction": 270
+        },
+        {
+          "id": "dd1495d1-0391-4c33-966a-79a278549e50",
+          "type": "info",
+          "label": "Main Lecture Hall (Aula)",
+          "title": "The Main Auditorium",
+          "body": "Welcome to the Aula, our largest lecture hall. This auditorium hosts major university events, guest speaker series, and core curriculum lectures for large student cohorts, featuring tiered seating and full audiovisual support.",
+          "image": "",
+          "style": "hint",
+          "color": "#25aae1",
+          "hover": "details",
+          "yaw": -1.6502520232838578,
+          "pitch": -0.02360602678997215
+        }
+      ],
+      "videoOptions": {
+        "loop": false,
+        "playbackRate": 1,
+        "volume": 1
+      }
+    },
+    {
+      "id": "9797c696-5e7a-4c7d-87a3-7a21002ebb16",
+      "name": "Floor 2",
+      "video": "/media/113c4d84-764c-495d-9a18-e870c1e88141.mp4",
+      "startYaw": -1.820000000000001,
+      "hotspots": [
+        {
+          "id": "b9bb0123-d750-4e1a-925a-0c176f313dea",
+          "type": "info",
+          "label": "IFE Dean's Office",
+          "title": "International Faculty of Engineering (IFE) Administration",
+          "body": "The central administrative hub for all IFE students. Visit this office for assistance with course registration, student ID renewals, official transcripts, scheduling inquiries, and day-to-day academic administration.",
+          "image": "",
+          "style": "hint",
+          "color": "#25aae1",
+          "hover": "details",
+          "yaw": -1.6031715519152963,
+          "pitch": -0.053073485398798824
+        },
+        {
+          "id": "54a5a2e0-49c9-4422-b95b-87729c6f3501",
+          "type": "link",
+          "label": "Go Down",
+          "target": "75f18cd0-c905-47eb-9252-ea9e8a1283f6",
+          "style": "hint",
+          "color": "#ffffff",
+          "hover": "label",
+          "direction": 180,
+          "yaw": 1.3361098436457521,
+          "pitch": -0.18965316448611597
+        }
+      ],
+      "videoOptions": {
+        "loop": false,
+        "playbackRate": 1,
+        "volume": 1
+      }
+    }
+  ],
+  "presentation": {
+    "transition": "fade",
+    "transitionMs": 450,
+    "dragMode": "grab",
+    "fieldOfView": 100,
+    "renderScale": 1,
+    "vrFoveation": 0.5
+  }
+}
